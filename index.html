@@ -106,18 +106,19 @@
             <div class="text-3xl font-extrabold text-gray-800">HomeShift</div>
             
             <!-- Desktop Navigation Links and New Button -->
-            <div class="hidden md:flex flex-grow justify-center items-center">
+            <!-- Adjusted flex properties for centering -->
+            <div class="hidden md:flex flex-1 justify-center items-center"> 
                 <div class="space-x-8 text-lg font-medium text-gray-700">
                     <a href="#vision" class="hover:text-blue-600 transition-colors duration-300">Vision</a>
                     <a href="#features" class="hover:text-blue-600 transition-colors duration-300">Features</a>
                     <a href="#trust" class="hover:text-blue-600 transition-colors duration-300">Trust & Safety</a>
                     <a href="#founder" class="hover:text-blue-600 transition-colors duration-300">Founder</a>
                 </div>
-                <!-- The "Join the Shift" button is now separated from the nav links but still within the flex-grow container -->
-                <a href="#" class="ml-auto px-6 py-2 rounded-full text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg">
-                    Join the Shift
-                </a>
             </div>
+            <!-- The "Join the Shift" button, moved outside the flex-1 div for consistent spacing -->
+            <a href="#" class="px-6 py-2 rounded-full text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-lg">
+                Join the Shift
+            </a>
 
             <!-- Mobile Menu Button (Hamburger) -->
             <div class="md:hidden flex items-center">
